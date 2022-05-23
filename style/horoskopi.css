@@ -1,0 +1,48 @@
+img
+{   height:150px;
+    width:300px;
+    margin:-2px;    
+}
+
+#gallery1,#gallery2,#gallery3,#gallery4
+{
+    margin: 1% 5%;
+}
+
+h4
+{ 
+    margin: 0;
+    font:60px sans-serif;
+    color: #c495b2;
+    text-align: center;
+    margin-left: 5%;
+}
+
+button
+{
+    cursor: pointer;
+    width: 80px;
+    border: none;
+    background: #b56098;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 2rem;
+}
+
+button:hover 
+{
+  background: #c495b0;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  -moz-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+  color: white;
+}
+
+button:active
+{
+    background-color: black;
+}
+
+

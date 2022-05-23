@@ -1,0 +1,28 @@
+.audiot
+{
+    margin-top: -100px;
+}
+
+.audiot audio
+{
+    margin: 4px;
+    border-radius: 27px;
+    border: 1px solid black;
+}
+
+.audiot table
+{
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+    border: 5px black;
+    background: radial-gradient(ellipse at top, #98a5ed, transparent),
+                radial-gradient(ellipse at bottom, #1111, transparent);
+}
+
+.audiot thead th , tfoot th
+{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: large;
+}

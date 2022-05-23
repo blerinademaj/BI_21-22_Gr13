@@ -1,0 +1,216 @@
+/* 1- kronika*/
+
+/*
+#kronikat1 , #kronikat2 , #kronikat3
+{
+  padding-top: 0px;
+  padding-left: 3%;
+  margin-bottom: 30px;
+}
+*/
+
+#kronikat2 , #kronikat3
+{
+  display: none;
+}
+
+.kronike 
+{
+  width: 235px;
+  height: 420px;
+  background-color: #d2d8fa;
+  border-radius: 10px;
+  box-shadow: 10px 10px 12px  #d2d8fa;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.kronike:hover 
+{
+  background-color: #c495b2;
+  transform-style: preserve-3d;
+  transform: scale(1.15);
+  transition: all ease 0.5s;  
+}
+
+.kronike_title
+{
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+.kronike:hover .kronike_title
+{
+  color: rgb(255, 255, 255);
+}
+
+.kronike img
+{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 200px;
+  width: 200px;
+}
+
+.kronike_text p 
+{
+  color: black;
+  font-size: 13px;
+  font-family: 'Lora', 'Times New Roman', Times, serif;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+/* 1-kornika end*/
+
+
+/* 2-lajmet*/
+
+ #news
+ {
+  height: 300px;
+  margin: 30px 30px;
+  padding-bottom: 30px;
+ }
+
+#fotoD
+{
+  position: absolute;
+  left:540px;
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+
+#tekstM
+{ 
+  float: left;
+  text-align: left;
+  width: 500px;
+  height: 300px;
+  background: linear-gradient(to right, #9ec6f3, #eee, #90b0df); 
+  position:absolute;
+  overflow: auto;
+  outline: 3px solid #d4c9c9;
+}
+
+#tekstM p 
+{
+  padding: 10px 20px 10px 20px;
+}
+
+#express 
+{
+  text-decoration: none;
+  color: #6a85c4;
+  font-weight: bolder;
+}
+
+#express:hover
+{
+  color: rgb(148, 3, 22);
+}
+
+#gazeta
+{
+  width: 20px;
+  height: 20px;
+}
+
+
+#tekstM h1
+{
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: -10px;
+}
+
+#fotoD img
+{
+  height: 300px;
+  width: 500px;
+}
+
+#fotoD , #tekstM
+{
+  margin-left: 120px;
+  margin-top: 30px;
+}
+
+/* 2-lajmet end*/
+
+/* me shume / me pak storje*/
+
+.buton
+{ 
+  display: flex;
+  justify-content: center;
+}
+
+#more , #less
+{ 
+  font-family: 'Lora', 'Times New Roman', Times, serif;
+  background-color: #c495b2;
+  border-radius: 5px;
+  color: black;
+  padding:5px 10px 5px 10px; 
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+#less
+{
+  display: none;
+  margin-left: 10px;
+}
+
+#more
+{
+  margin-right: 10px;
+}
+
+#more:hover , #less:hover
+{
+  color: #c495b2;
+  background-color: transparent;
+}
+
+/* me shume / me pak storje*/
+
+/* 2 butona ne homepage per kalim te storjet start*/
+
+#s_button , #stories
+{
+  margin-top: -20px;
+  margin-left: 15%;  
+  background: #c495b2;	
+	border-radius: 25px;
+	font-size: 30px;	
+	width: fit-content;
+	height: fit-content;
+  padding: 15px 15px 15px 15px;
+  
+}
+
+#s_button a , #stories a 
+{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+#s_button a:hover, #stories a:hover
+{
+  color: rgb(148, 3, 22);
+  transition: color 200ms ease-in;
+}
+
+
+
+/* butoni ne home page start*/

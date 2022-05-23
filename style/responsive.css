@@ -1,0 +1,62 @@
+/*mobile layout: 320px*/
+@media only screen and ( max-width: 765px){
+  .wrapper {
+     width: 300px;
+  }
+  
+  .l_logo {
+      width: 100%;
+      text-align: center;
+      float: none;
+  }
+  .search {
+      width: 100% !important;
+      margin: 20px 0;
+  }
+  
+  .right_menu {
+      width: 100%;
+      float: none;
+      text-align: center;
+  }
+  
+  .search button {
+      right: 80px;
+      top: 115px;
+  
+  }
+  .contact{
+      flex-direction: column;
+      padding-bottom: 20px;
+  }
+  
+  .contact h2 {
+      text-align: center;
+  } 
+  
+  
+  #service li {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      margin: 15px 0;
+      padding-left: 45%;
+  }
+  
+  .single_s p {
+      color: #979797;
+      font-size: 12px;
+  }
+}
+
+
+/* width moblie layout*/
+@media only screen and ( min-width: 480px)  and (max-width: 770px) {}
+
+/* medium layout: 1300px    */
+@media only screen and (min-width:  990px) and( max-width: 1200px) {}
+
+/* table layout:770px*/
+@media only screen and (min-width: 770px) and (max-width:990px)  {}
+
+
