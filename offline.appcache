@@ -1,0 +1,35 @@
+CACHE MANIFEST
+# 2021-01-03 v1.0.0
+
+ballina.html
+style/style.css
+style/responsive.css
+style/storjet.css
+
+CACHE:
+
+ballina.html
+/style/style.css
+/style/responsive.css
+/style/storjet.css
+/skript/fullwidth.js
+/img/mode.jpg
+/img/shendet.jpg
+/img/hobi.jpg
+/img/lifestylecover.jpg
+/img/cover2.jpg
+/img/cover3.jpg
+/img/cover4.jpg
+/img/picture.jpg
+/img/wheelchair.jpg
+/img/writing.jpg
+/img/argetuese.jpg
+/img/festa.jpg
+/img/kreative.jpg
+
+
+NETWORK:
+*
+
+FALLBACK:
+/html/ offline.html
